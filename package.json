@@ -1,0 +1,34 @@
+{
+  "name": "echo-central-retail-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echocentral/echo-central-retail-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/echocentral/echo-central-retail-website/issues"
+  },
+  "homepage": "https://github.com/echocentral/echo-central-retail-website#readme",
+  "devDependencies": {
+    "dotenv": "^1.2.0",
+    "grunt": "^0.4.5",
+    "grunt-aws-s3": "^0.14.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express": "^1.4.1",
+    "grunt-open": "^0.2.3",
+    "grunt-swig-revsys": "^0.3.0",
+    "load-grunt-tasks": "^3.3.0",
+    "merge": "^1.2.0"
+  }
+}
