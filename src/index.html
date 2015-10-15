@@ -1,1 +1,96 @@
-<h1>Echo Central</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Echo Central - Online fraud and surveillance solutions</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.min.css" rel="stylesheet">
+    <!--link href="css/materializeplus.css" rel="stylesheet"-->
+    <style>
+      body {height: 100vh; background-color: #111; color: rgba(255,255,255,0.75); text-align: center;}
+      img {width: 40%; min-width: 250px; max-width: 592px; padding-top: 5rem; opacity: 0.25; animation: fade-up 0.5s, fade-down 1.5s 0.5s;}
+      h1 {font-size: 60px; font-weight: 300; letter-spacing: 4px; opacity: 0; animation: fade-up 2s 0.5s forwards;}
+      h1 + div {margin-top: 8rem;}
+      h2, h3 {color: rgba(255,255,255,0.5); line-height: 50px; word-break: break-word;}
+      h4 {font-size: 24px;}
+      body > div, footer {opacity: 0; animation: fade-up 2s 1s forwards;}
+      footer {margin-top: 2rem; margin-bottom: 1rem;}
+
+      .finger {padding: 18px !important; cursor: pointer;}
+      .finger>* {margin: 0;}
+      .finger-left {border-radius: 0 50rem 50rem 0;}
+      .finger-right {border-radius: 50rem 0 0 50rem;}
+      .finger .on {display: none;}
+      .finger:hover .on {display: block;}
+      .finger:hover .off {display: none;}
+
+      @media only screen and (max-width: 992px) {
+        .row {margin-bottom: 0;}
+        .finger {border-radius: 0;}
+        .center-on-small-only {text-align: center !important;}
+      }
+      @keyframes fade-up {
+        from {opacity: 0;}
+        to {opacity: 0.9;}
+      }
+      @keyframes fade-down {
+        from {opacity: 0.9;}
+        to {opacity: 0.25;}
+      }
+    </style>
+  </head>
+  <body>
+    <img src="echo-central-logo-long-white.png" alt="">
+    <h1>online fraud and surveillance solutions</h1>
+
+    <div>
+      <div class="row hide-on-med-and-down">
+        <div class="col s12 m5 l4 grey-text text-darken-3 left-align">
+          <h4>FOR BUSINESSES</h4>
+        </div>
+        <div class="col s12 m5 offset-m2 l4 offset-l4 grey-text text-darken-3 right-align">
+          <h4>FOR DEVELOPERS</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="finger finger-left col s12 l4 center-on-small-only green darken-2 left-align" onclick="goto('http://www.echoprotect.co.uk/')" title="www.echo-protect.com">
+          <h2 class="off truncate">Echo Protect</h2>
+          <p class="off">Corporate consulting</p>
+          <p class="on">Visit the website</p>
+          <h3 class="on truncate">www.echo-protect.com</h3>
+        </div>
+        <div class="finger finger-right col s12 l4 offset-l4 center-on-small-only orange darken-2 right-align" onclick="goto('http://www.echoreflect.com/')" title="www.echoreflect.com">
+          <h2 class="off truncate">Echo Reflect</h2>
+          <p class="off">Web session CCTV</p>
+          <p class="on">Visit the website</p>
+          <h3 class="on truncate">www.echoreflect.com</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="finger finger-right col s12 l4 offset-l8 center-on-small-only light-blue darken-2 right-align" title="(coming soon)">
+          <h2 class="off truncate">Account Shield</h2>
+          <p class="off">Device detection web service</p>
+          <p class="on">Visit the website</p>
+          <h3 class="on truncate">(coming soon)</h3>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row container center">
+        <div class="container grey-text text-darken-3">
+          Echo Central Ventures Ltd, a company incorporated in England (no.9402230) with its registered office at Penvose House, Broad Lane, Upper Bucklebury, Reading, Berkshire RG7 6QH, UK.
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      function goto(url){
+        window.location = url;
+      }
+    </script>
+  </body>
+</html>
